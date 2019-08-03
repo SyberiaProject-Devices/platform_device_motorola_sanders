@@ -314,6 +314,10 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+#OTA Updates
+PRODUCT_PACKAGES += \
+    Updates
+
 # Perf configs
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \

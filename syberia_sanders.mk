@@ -47,3 +47,5 @@ VENDOR_BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/51486
 
 # for specific
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
+
+SYBERIA_BUILD_TYPE := OFFICIAL
