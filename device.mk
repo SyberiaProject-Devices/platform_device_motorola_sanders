@@ -312,6 +312,11 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson \
+    libqti_vndfwk_detect.vendor
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
